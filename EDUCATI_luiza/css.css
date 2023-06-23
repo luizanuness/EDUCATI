@@ -5,10 +5,37 @@ body {
     margin-left: 30px;
     margin-right: 30px;
 }
-*
 
+*
 .card {
-    border-radius: 35px;
+    width: 1000px;
+    height: 180px;
+    border-radius: 5px;
     border: 1px solid #2F88FF;
     background: rgba(123, 178, 252, 0.15);
+}
+
+*
+
+.card img { 
+    border-radius: 35px;
+    max-width: 270px;
+    width: 270px;
+    max-height: 178px;
+    height: 179px;
+}
+
+*
+
+.dropdown1 content {
+    display: none;
+    position: absolute;
+    background-color: #2F88FF99;
+    width: 305px;
+    height: 53px;
+    border-radius: 15px;
+    border: 0px solid #000;
+    z-index: 1;
+
+
 }
