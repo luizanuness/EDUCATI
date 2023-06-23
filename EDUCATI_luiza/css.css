@@ -8,7 +8,7 @@ body {
 
 *
 .card {
-    width: 800px;
+    width: 1000px;
     height: 180px;
     border-radius: 5px;
     border: 1px solid #2F88FF;
@@ -23,4 +23,12 @@ body {
     width: 270px;
     max-height: 178px;
     height: 179px;
+}
+
+*
+
+.dropdown1 {
+    background: #2F88FF99;
+    width: 385px;
+    height: 422px;
 }
