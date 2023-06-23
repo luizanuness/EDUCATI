@@ -27,6 +27,12 @@ body {
 
 *
 
+.card1 {
+    border-radius: 0px;
+    max-width: 305px;
+    max-height: 53px;
+}
+
 .dropdown1 content {
     display: none;
     position: absolute;
