@@ -1,0 +1,28 @@
+body 
+{
+    margin: 0px;;
+    font-family: arial, arial, helvetica, sans-serif;
+    background-color: #ffffff;
+    background-image: url(teladefundo.png);
+}
+
+*
+{
+    box-sizing: border-box;
+}
+.container
+{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px;
+    text-align: center;
+    background-color: #dbe5f1;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px, rgba(0,0,0,1);
+    margin-top: 100px;
+}
+.logo img
+{
+    width: 500px;
+    margin-bottom: 100px;
+}

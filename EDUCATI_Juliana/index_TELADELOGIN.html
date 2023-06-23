@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <link rel="stylesheet" href="index_TELADELOGIN.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <left><img src="logoeducati.png.png" alt="Educati Logo"></left>
+        </div>
+        <form id="loginform" method="post" action="#">
+            <h1>Entrar</h1>
+            <center><input type="email" name="email" placeholder="Email" required></center><br>
+            <center><input type="password" name="password" placeholder="Senha" required></center><br>
+            <h7>Você é um:</h7>
+            <br>
+            <form>
+                <select name="cars">
+                    <option value="Professor">Selecione
+                    <option value="Professor">Professor (a)
+                    <option value="Aluno">Aluno (a)
+                    <option value="Administrador">Administrador (a)
+                </select>
+            </form>
+            <br>
+
+            <div class="d-grid gap-2 col-6 mx-auto">
+                <div class="d-grid gap-2 col-6 mx-auto">
+                    <button class="btn btn-primary" type="button">Entrar</button>
+            
+                  </div>
+            </div>
+            <p>Esqueceu a senha</p>
+        </form>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
