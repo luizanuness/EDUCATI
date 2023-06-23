@@ -15,7 +15,7 @@ body {
     background: rgba(123, 178, 252, 0.15);
 }
 
-.card img {
+.card img { 
     border-radius: 35px;
     max-width: 270px;
     width: 270px;
