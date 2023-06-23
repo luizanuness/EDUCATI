@@ -5,8 +5,8 @@ body {
     margin-left: 30px;
     margin-right: 30px;
 }
-*
 
+*
 .card {
     width: 800px;
     height: 180px;
@@ -16,6 +16,7 @@ body {
 }
 
 .card img {
+    border-radius: 35px;
     max-width: 270px;
     width: 270px;
     max-height: 179px;
