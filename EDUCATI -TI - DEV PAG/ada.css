@@ -9,8 +9,32 @@
 
 =======
  .button {
-   color: #2F88FF;
+	padding: 10px;
+	float: left;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-bottom-style: solid;
+	border-top-color: #2F88FF;
+  border-right-color: #2F88FF;
+	border-bottom-color: #2F88FF;
+	border-left-color: #2F88FF;
+	color: #2F88FF;
+	margin-left: 20px;
+}
+.botao:hover{
+	color: #330000;
+	background-color: #FFFFFF;
+	/*CSS 3*/
+	border-radius: 10px 0px 10px 0px;
  }
 
+<<<<<<< HEAD
+ .table {
+  display: flex;
+ }
+=======
  
 >>>>>>> e26550f8bee7e33132903318b8ba2a5047c90bc0
+>>>>>>> bb7ed25dc89d2c89599849f8809ac30d88710e1c
