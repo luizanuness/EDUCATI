@@ -6,11 +6,11 @@
 	border-bottom-width: 1px;
 	border-left-width: 1px;
 	border-bottom-style: solid;
-	border-top-color: #FFFFFF;
-	border-right-color: #FFFFFF;
-	border-bottom-color: #FFFFFF;
-	border-left-color: #FFFFFF;
-	color: #FFFFFF;
+	border-top-color: #2F88FF;
+  border-right-color: #2F88FF;
+	border-bottom-color: #2F88FF;
+	border-left-color: #2F88FF;
+	color: #2F88FF;
 	margin-left: 20px;
 }
 .botao:hover{
@@ -20,4 +20,6 @@
 	border-radius: 10px 0px 10px 0px;
  }
 
- 
+ .table {
+  display: flex;
+ }
