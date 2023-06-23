@@ -8,7 +8,17 @@ body {
 *
 
 .card {
+    width: 800px;
+    height: 180px;
     border-radius: 35px;
     border: 1px solid #2F88FF;
     background: rgba(123, 178, 252, 0.15);
+}
+
+.card img {
+    object-fit: fill;
+    max-width: 800px;
+    width: auto;
+    max-height: 180px;
+    height: auto;
 }
