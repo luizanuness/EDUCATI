@@ -27,12 +27,12 @@ body {
 
 *
 
-.dropdown1 content {
+.dropdownMenuLink content {
     display: none;
     position: absolute;
     background-color: #2F88FF99;
-    width: 305px;
-    height: 53px;
+    width: 500px;
+    height: 52px;
     border-radius: 15px;
     border: 0px solid #000;
     z-index: 1;
