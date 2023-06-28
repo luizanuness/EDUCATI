@@ -33,13 +33,42 @@ body {
     max-height: 53px;
 }
 
-.dropdown1 content {
-    display: none;
-    position: absolute;
-    background-color: #2F88FF99;
-    width: 500px;
-    height: 52px;
-    border-radius: 15px;
-    border: 0px solid #000;
-    z-index: 1;
+.container{
+    display: flex;
+    width: 70%;
+    margin: 0 auto; 
+    }
+
+.container1{
+    width: 1000px;
+    height: 180px;
+    border-radius: 5px;
+    border: 1px solid #2F88FF;
+    background: rgba(123, 178, 252, 0.15);
+        }
+
+
+.titulo{
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.datadrop{
+    max-width: 1000px;
+    max-height: 180px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.desc{
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+.card2{
+    max-width: 500px;
+    max-height: 90px;
 }
