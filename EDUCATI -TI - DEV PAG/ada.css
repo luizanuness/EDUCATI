@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .dropdown-menu{
 
     background-color:blue;
@@ -6,8 +6,6 @@
 
 }
 
-
-=======
  .button {
 	padding: 10px;
 	float: left;
@@ -28,13 +26,4 @@
 	background-color: #FFFFFF;
 	/*CSS 3*/
 	border-radius: 10px 0px 10px 0px;
- }
-
-<<<<<<< HEAD
- .table {
-  display: flex;
- }
-=======
- 
->>>>>>> e26550f8bee7e33132903318b8ba2a5047c90bc0
->>>>>>> bb7ed25dc89d2c89599849f8809ac30d88710e1c
+}

@@ -33,8 +33,11 @@ body {
     max-height: 53px;
 }
 
+<<<<<<< HEAD
+=======
 
 *
+>>>>>>> 285414c1097082461f655f5bce75ab9df4a9664e
 
 .container{
     margin: 10px;
@@ -53,55 +56,64 @@ body {
     padding-left: calc(var(--bs-gutter-x) * .5);
     margin-top: var(--bs-gutter-y);
 }
+<<<<<<< HEAD
+
+.container{
+    display: flex;
+    width: 70%;
+    margin: 0 auto; 
+    }
+=======
+>>>>>>> 285414c1097082461f655f5bce75ab9df4a9664e
 
 .container1{
-    width: 1000px;
-    height: 180px;
-    border-radius: 5px;
+    width: 1500px;
+    height: 450px;
+    border-radius: 35px;
     border: 1px solid #2F88FF;
     background: rgba(123, 178, 252, 0.15);
         }
 
 
 .titulo{
-    margin-top: 10px;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-top: -350px;
+    margin-left: 50px;
+    margin-right: 30px;
 }
 
 .datadrop{
     max-width: 1000px;
     max-height: 180px;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 315px;
+    margin-right: 500px;
 }
 
 .desc{
-    margin-top: 10px;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 30px;
 }
 
 
 .card2{
-    max-width: 500px;
+    max-width: 1500px;
     max-height: 90px;
-}
+ }
 
 .tabela{
     background-color: rgb(237, 237, 237);
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 100px;
     margin-left: 15px;
     margin-right: 15px;
-    max-width: 1000px;
+    max-width: 15000px;
     max-height: 180px;
 }
 
 .container2{
     background-color: rgb(227, 227, 227);
-    width: 1200px;
-    height: 500px;
+    width: 2000px;
+    height: 3px;
 }
 
 .containervisaoturma{
@@ -136,6 +148,8 @@ body {
     margin-left: 10px;
     margin-right: 10px;
 }
+<<<<<<< HEAD
+=======
 
 .formcinza{
     width: 1295px;
@@ -160,3 +174,4 @@ body {
     margin-right: 10px;
 }
 
+>>>>>>> 285414c1097082461f655f5bce75ab9df4a9664e
