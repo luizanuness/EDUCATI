@@ -36,7 +36,6 @@ body {
 
 
 
-<!--criaratv-->
 
 
 
@@ -105,22 +104,18 @@ body {
 
 
 .tabela{
-    background-color: rgb(237, 237, 237);
+    background: #ffffff;
     margin-top: 10px;
-    margin-bottom: 100px;
-    margin-left: 15px;
-    margin-right: 15px;
-    max-width: 15000px;
-    max-height: 180px;
+    max-width: 1650px;
+    max-height: 800px;
 }
 
 
 
-<!--turmas-->
 .containerturmas{
     background-color: rgb(227, 227, 227);
-    width: 2000px;
-    height: 3px;
+    width: 1700px;
+    height: 520px;
 }
 
 .containervisaoturma{
