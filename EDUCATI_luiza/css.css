@@ -107,7 +107,7 @@ body {
 .containervisaoturma{
     background-color: #CBCBCB;
     width: 1347px;
-    height: 794px;
+    height: 694px;
     flex-shrink: 0;
 }
 
@@ -140,12 +140,13 @@ body {
 .formcinza{
     width: 1295px;
     height: 68px;
-    flex-shrink: 0;
     border-radius: 5px;
+    flex-shrink: 0;
     color: rgba(255, 255, 255, 0.70);
     margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 10px;
     margin-right: 10px;
 }
+
 
