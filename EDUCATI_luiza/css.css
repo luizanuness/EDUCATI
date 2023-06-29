@@ -149,4 +149,14 @@ body {
     margin-right: 10px;
 }
 
+.tabeladatas{
+    width: 1295px;
+    height: 68px;
+    border-radius: 5px;
+    flex-shrink: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
