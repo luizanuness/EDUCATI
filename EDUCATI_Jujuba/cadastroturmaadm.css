@@ -1,36 +1,36 @@
 body
-    {
-        margin:1;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        background-color: #ECF1F7;
-        background-image: url();
-    }
-     
+{
+    margin:1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ECF1F7;
+    background-image: url();
+}
+ 
 *
 {
-    box-sizing: border-box;
+box-sizing: border-box;
 }
 
 .container3 {
-    margin: 0px;
-    background-color: white;
+margin: 0px;
+background-color: white;
 }
 .container
 {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: center;
-    background-color: rgb(255, 255, 255);
-    border-radius: 4px;
-    box-shadow: 0 2px 5px, blue;
-    margin-top: 100px;
+max-width: 400px;
+margin: 0 auto;
+padding: 20px;
+text-align: center;
+background-color: rgb(255, 255, 255);
+border-radius: 4px;
+box-shadow: 0 2px 5px, blue;
+margin-top: 100px;
 }
 
 .loginform input
 {
-    border: 2px solid white;
-    width: 200px;
-    height: 200px;
-    margin: 0px auto;
+border: 2px solid white;
+width: 200px;
+height: 200px;
+margin: 0px auto;
 }
