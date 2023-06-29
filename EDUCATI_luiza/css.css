@@ -39,6 +39,15 @@ body {
 
 
 
+.containeratv {
+    flex-shrink: 0;
+    max-width: 1000px;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+}
+
+
 .containerdropatv{
     margin: 10px;
     position: relative
@@ -48,14 +57,6 @@ body {
 }
 
 
-.containeratv {
-    flex-shrink: 0;
-    width: 100%;
-    max-width: 100%;
-    padding-right: calc(var(--bs-gutter-x) * .5);
-    padding-left: calc(var(--bs-gutter-x) * .5);
-    margin-top: var(--bs-gutter-y);
-}
 
 .container{
     display: flex;
