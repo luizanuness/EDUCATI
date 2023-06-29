@@ -38,13 +38,9 @@ body {
 
 <!--criaratv-->
 
-<<<<<<< HEAD
-=======
 
-*
->>>>>>> 285414c1097082461f655f5bce75ab9df4a9664e
 
-.container{
+.containerdropatv{
     margin: 10px;
     position: relative
     display: flex;
@@ -61,7 +57,6 @@ body {
     padding-left: calc(var(--bs-gutter-x) * .5);
     margin-top: var(--bs-gutter-y);
 }
-<<<<<<< HEAD
 
 .container{
     display: flex;
@@ -69,7 +64,16 @@ body {
     margin: 0 auto; 
     }
 
-.container1{
+
+
+
+.card2{
+    max-width: 1500px;
+    max-height: 90px;
+}
+
+.containercriar{
+    margin-top: ;
     width: 1500px;
     height: 450px;
     border-radius: 35px;
@@ -98,10 +102,7 @@ body {
 }
 
 
-.card2{
-    max-width: 1500px;
-    max-height: 90px;
- }
+
 
 .tabela{
     background-color: rgb(237, 237, 237);
@@ -113,7 +114,10 @@ body {
     max-height: 180px;
 }
 
-.container2{
+
+
+<!--turmas-->
+.containerturmas{
     background-color: rgb(227, 227, 227);
     width: 2000px;
     height: 3px;
