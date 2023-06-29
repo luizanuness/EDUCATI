@@ -33,16 +33,19 @@ body {
     max-height: 53px;
 }
 
-<<<<<<< HEAD
 
 *
 
 .container{
     margin: 10px;
-    position: relative;
+    position: relative
+    display: flex;
+    width: 70%;
+    margin: 0 auto; 
 }
 
-.container2 {
+
+.containeratv {
     flex-shrink: 0;
     width: 100%;
     max-width: 100%;
@@ -50,12 +53,6 @@ body {
     padding-left: calc(var(--bs-gutter-x) * .5);
     margin-top: var(--bs-gutter-y);
 }
-=======
-.container{
-    display: flex;
-    width: 70%;
-    margin: 0 auto; 
-    }
 
 .container1{
     width: 1000px;
@@ -130,4 +127,4 @@ body {
     margin-right: 10px;
     background-color: whitesmoke;
 }
->>>>>>> 09ea57594e86e61b2a5e61939645a8a20ca683e8
+
