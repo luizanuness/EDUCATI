@@ -33,13 +33,19 @@ body {
     max-height: 53px;
 }
 
-.dropdown1 content {
-    display: none;
-    position: absolute;
-    background-color: #2F88FF99;
-    width: 500px;
-    height: 52px;
-    border-radius: 15px;
-    border: 0px solid #000;
-    z-index: 1;
+
+*
+
+.container{
+    margin: 10px;
+    position: relative;
+}
+
+.container2 {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
 }
