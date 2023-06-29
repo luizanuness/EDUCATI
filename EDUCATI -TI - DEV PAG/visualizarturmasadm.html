@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="PT-BR">
 <head>
@@ -6,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="icon" href="img/logoeducati.png" size="32x32">
-    <link rel="stylesheet" href="ada.css"
+    <link rel="stylesheet" href="ada.css">
     <style>
         body
         {
@@ -58,7 +57,7 @@
     </nav>
  <!--Visualização-->
     <div class="list-group">
-        <center><button type="button" class="list-group-item list-group-item-action active" aria-current="true"></center>
+        <button type="button" class="list-group-item list-group-item-action active" aria-current="true">
             Visualização de Turmas
           </button>
           <br>
@@ -66,7 +65,8 @@
         
         <br> <table> 
         <div class="row">
-          <div class="col-4">
+          <div class="col-3">
+            <div class="card">
             <div class="list-group" id="list-tab" role="tablist">
              <a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">Google</a>
               <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="list-profile">Microsoft</a>
@@ -76,7 +76,7 @@
               <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings">Nuvem</a>
             </div>
           </div>
-        </table> 
+        </table>
           <div class="col-8">
             <div class="tab-content" id="nav-tabContent">
               <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list"><div class="list-group">
@@ -92,6 +92,7 @@
               </div>
             </div>
           </div>
+          </div>
 
 
           </div>
@@ -106,7 +107,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>   
 </body>
 </html>
-=======
 <!DOCTYPE html>
 <html lang="PT-BR">
 <head>
@@ -170,23 +170,33 @@
           </button>
           </center>
         <br>
-        <div class="card" style="width: 18rem;">
-          <img src="img\google.png" class="card-img-top" alt="...">
+        <div class="row row-cols-1 row-cols-md-6 g-4 col-11 m-auto" >
+          <div class="col">
+            <div class="card">
+          <img src="img\google.png" class="card-img-top" alt="card 1">
           <div class="card-body">
             <h5 class="card-title">Google</h5>
             <p class="card-text">Curso de google</p>
+            </div>
+            </div>
+            </div>
+
             <!--Button trigger modal-->
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
               Ver alunos
             </button>
+
             <!-- Modal -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" 
+            aria-hidden="true">
               <div class="modal-dialog">
                 <div class="modal-content">
                   <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLabel">Google</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
+                  
+                  
                   <div class="modal-body">
                     <ul class="list-group">
                       <li class="list-group-item">ane</li>
@@ -204,12 +214,17 @@
               </div>
             </div>
           </div>
+          </div>
+          </div>
+          </div>
         </div>
         <br>
       
 
-        <div class="card" style="width: 18rem;">
-          <img src="img\microsoft.png" class="card-img-top" alt="...">
+        <div class="row row-cols-1 row-cols-md-6 g-4 col-11 m-auto">
+          <div class="col">
+            <div class="card">
+          <img src="img\microsoft.png" class="card-img-top" alt="card 2">
           <div class="card-body">
             <h5 class="card-title">Microsoft</h5>
             <p class="card-text">curso de microsoft</p>
@@ -242,12 +257,16 @@
               </div>
             </div>
           </div>
+          </div>
+          </div>
         </div>
         <br>
        
 
-        <div class="card" style="width: 18rem;">
-          <img src="img\nuvem.jpg" class="card-img-top" alt="...">
+        <div class="row row-cols-1 row-cols-md-6 g-4 col-11 m-auto">
+          <div class="col">
+            <div class="card">
+          <img src="img\nuvem.jpg" class="card-img-top" alt="card 3">
           <div class="card-body">
             <h5 class="card-title">Nuvem</h5>
             <p class="card-text">curso de nuvem</p>
@@ -260,7 +279,7 @@
               <div class="modal-dialog">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Microsoft</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Nuvem</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
@@ -280,12 +299,16 @@
               </div>
             </div>
           </div>
+          </div>
+          </div>
         </div>
         <br>
        
 
-        <div class="card" style="width: 18rem;">
-          <img src="img\info.jpg" class="card-img-top" alt="...">
+        <div class="row row-cols-1 row-cols-md-6 g-4 col-11 m-auto">
+          <div class="col">
+            <div class="card">
+          <img src="img\info.jpg" class="card-img-top" alt="card 4">
           <div class="card-body">
             <h5 class="card-title">Informática básica</h5>
             <p class="card-text">curso de informática básica</p>
@@ -318,19 +341,25 @@
               </div>
             </div>
           </div>
+          </div>
+          </div>
         </div>
         <br>
      
 
-        <div class="card" style="width: 18rem;">
-          <img src="img\card1.jpg" class="card-img-top" alt="...">
+        <div class="row row-cols-1 row-cols-md-6 g-4 col-11 m-auto">
+          <div class="col">
+            <div class="card">
+          <img src="img\card1.jpg" class="card-img-top" alt="card 5">
           <div class="card-body">
             <h5 class="card-title">Desenvolvimento de Sistemas</h5>
             <p class="card-text">curso de desenvolvimento de sistemas</p>
+
             <!--Button trigger modal -->
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
               Ver alunos
             </button>
+
             <!-- Modal -->
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
               <div class="modal-dialog">
@@ -357,11 +386,14 @@
             </div>
           </div>
         </div>
-        <br>
+      </div>
+     </div>
+    <br>
      
-
-        <div class="card" style="width: 18rem;">
-          <img src="img\rede.jpg" class="card-img-top" alt="...">
+        <div class="row row-cols-1 row-cols-md-6 g-4 col-11 m-auto">
+          <div class="col">
+            <div class="card">
+          <img src="img\rede.jpg" class="card-img-top" alt="card 6">
           <div class="card-body">
             <h5 class="card-title">Rede de computadores</h5>
             <p class="card-text">curso de rede.</p>
@@ -394,6 +426,8 @@
               </div>
             </div>
           </div>
+          </div>
+          </div>
         </div>
         <nav aria-label="...">
           <ul class="pagination">
@@ -409,4 +443,3 @@
 </body>
 </html>
 
->>>>>>> bb7ed25dc89d2c89599849f8809ac30d88710e1c
