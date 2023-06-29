@@ -33,6 +33,11 @@ body {
     max-height: 53px;
 }
 
+
+
+
+<!--criaratv-->
+
 <<<<<<< HEAD
 =======
 
@@ -148,8 +153,6 @@ body {
     margin-left: 10px;
     margin-right: 10px;
 }
-<<<<<<< HEAD
-=======
 
 .formcinza{
     width: 1295px;
@@ -163,5 +166,14 @@ body {
     margin-right: 10px;
 }
 
+.tabeladatas{
+    width: 1295px;
+    height: 68px;
+    border-radius: 5px;
+    flex-shrink: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
->>>>>>> 285414c1097082461f655f5bce75ab9df4a9664e
