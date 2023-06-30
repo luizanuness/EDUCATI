@@ -1,0 +1,56 @@
+body 
+{
+    margin: 0px;;
+    font-family: arial, arial, helvetica, sans-serif;
+    background-color: #dbe5f1;
+    background-image: url(teladefundo.png);
+}
+
+*
+{
+    box-sizing: border-box;
+}
+.container
+{
+    max-width: 1800px;
+    max-height: 1000px;
+    margin: 0px;
+    padding: 100px;
+    text-align: center;
+    background-color: #dbe5f1;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px, rgba(0,0,0,1);
+    margin-top: 100px;
+}
+.logo img
+{
+    width: 500px;
+    margin-bottom: 100px;
+}
+
+.tabela{
+    align-self: center;
+    margin-left: 0px;
+    margin-bottom: -200px;
+    background-color: #dbe5f1;
+    width: 795px;
+    height: 1000px;
+}
+
+.tabela1{
+    align-self: center;
+    margin-left: 0px;
+    margin-top: -800px;
+    width: 795px;
+    background-color: #dbe5f1;
+    height: 1000px;
+}
+
+.imgs{
+    margin: 0px;
+    align-items: center;
+    width: 170px;
+    height: 170px;
+}
+
+

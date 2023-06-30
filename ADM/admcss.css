@@ -1,0 +1,43 @@
+.dropdown1-menu {
+
+	background-color: blue;
+
+
+}
+
+.button {
+	padding: 10px;
+	float: left;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-bottom-style: solid;
+	border-top-color: #2F88FF;
+	border-right-color: #2F88FF;
+	border-bottom-color: #2F88FF;
+	border-left-color: #2F88FF;
+	color: #2F88FF;
+	margin-left: 20px;
+}
+
+.botao:hover {
+	color: #330000;
+	background-color: #FFFFFF;
+	/*CSS 3*/
+	border-radius: 10px 0px 10px 0px;
+}
+
+.containerturmas {
+	width: 1300px;
+	height: 400px;
+	background-color: #d0e4fe;
+	align-items: center;
+	margin-left: 20px;
+}
+
+.containertitulo{
+	width: 850px;
+	height: 50px;
+	background-color: rgba(143, 186, 255, 0.663);
+}
