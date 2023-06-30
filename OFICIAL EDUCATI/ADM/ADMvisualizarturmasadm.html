@@ -69,9 +69,6 @@
       </button>
     </center>
     <br>
-
-
-
     <div class="row row-cols-1 row-cols-md-6 g-4 col-11 m-auto">
       <div class="col">
         <div class="card">
@@ -112,14 +109,41 @@
         </div>
       </div>
 
-
-
-      <div class="col">
+       <div class="col">
         <div class="card">
           <img src="img/microsoft.png" class="card-img-top" alt="card 2">
           <div class="card-body">
             <h5 class="card-title">Microsoft</h5>
             <p class="card-text">Curso da Microsoft</p>
+             <!-- Button trigger modal -->
+             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Ver alunos
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Microsoft</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <ul class="list-group">
+                      <li class="list-group-item">anee</li>
+                      <li class="list-group-item">lulu</li>
+                      <li class="list-group-item">juju</li>
+                      <li class="list-group-item">ju</li>
+                      <li class="list-group-item">gigi</li>
+                    </ul>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cadastrar aluno</button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
