@@ -122,9 +122,9 @@ body {
 }
 
 .containervisaoturma{
-    background-color: #CBCBCB;
+    background-color: rgb(164, 164, 164);
     width: 1347px;
-    height: 694px;
+    height: 563px;
     flex-shrink: 0;
 }
 
@@ -142,29 +142,7 @@ body {
 
 }
 
-.formbranco{
-    width: 1295px;
-    height: 68px;
-    flex-shrink: 0;
-    border-radius: 5px;
-    color: #FFF;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
 
-.formcinza{
-    width: 1295px;
-    height: 68px;
-    border-radius: 5px;
-    flex-shrink: 0;
-    color: rgba(255, 255, 255, 0.70);
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
 
 .tabeladatas{
     width: 1295px;
@@ -182,3 +160,6 @@ body {
     align-items: center;
 }
 
+.formsinfos{
+    width: 1300px;
+}
