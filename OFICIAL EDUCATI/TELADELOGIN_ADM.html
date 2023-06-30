@@ -9,14 +9,22 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="index_TELADELOGIN.css" href="imgs/">
+    <style>
+        body{
+            background-color: rgba(119, 166, 228, 0.349);
+        }
+    </style>
 </head>
 
 <body>
-    
+    <br>
+    <center>
     <div class="container">
         <div class="logo">
-            <left><img src="imgs/educati.png" alt="Educati Logo"></left>
+            <img src="educati.png" alt="Educati Logo" width="300" height="100">
         </div>
+        <br>
+    </center>
 
 
         <!--forms-->
@@ -26,7 +34,7 @@
             <center>
                 <div class="login">
                     <b>
-                        <h1 style="font-size: 50px;">Entrar</h1>
+                        <h1 style="font-size: 30px;">Entrar</h1>
                     </b>
                 </div>
             </center>
@@ -34,18 +42,15 @@
             <br>
 
             <div class="infos">
-                <center>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="E-mail" style="width: 800px; height: 50px;">
+         <center><input type="email" class="form-control" id="exampleFormControlInput1" placeholder="E-mail" style="width: 800px; height: 50px;"></center>
                     <br>
-                    <input type="password" id="inputPassword6" class="form-control" aria-labelledby="passwordHelpInline"
-                        placeholder="Senha" style="width: 800px; height: 50px;">
-
-                </center>
+            <center><input type="password" id="inputPassword6" class="form-control" aria-labelledby="passwordHelpInline"
+                placeholder="Senha" style="width: 800px; height: 50px;"></center>
             </div>
 
-
+            <center>
             <br>
-            <h7>Você é um:</h7>
+            <h7><b>Você é um:</b></h7>
             <br>
             <form>
                 <select name="cars" style="width: 800px; height: 50px;">
@@ -56,17 +61,16 @@
                 </select>
             </form>
             <br>
-
+    <br>
             <div class="d-grid gap-2 col-6 mx-auto">
                 <div class="d-grid gap-2 col-6 mx-auto">
-                    <button class="btn btn-primary" href="ADM/ADMhome_adm.html" role="button">Entrar</button>
+                <a href="ADMhome_adm.html"><button class="btn btn-primary" role="button" style="width: 400px; height: 40px;">Entrar</button></a>     
 
                 </div>
             </div>
-
-
             <br>
-            <a href="index_ESQUECEUASENHA.html"><p>Esqueceu a senha</p></a>
+            <a href="index_ESQUECEUASENHA.html">Esqueceu a senha?</a>
+        </center>
         </form>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
